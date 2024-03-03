@@ -1,0 +1,30 @@
+.container-input-image{
+    width: 65%;
+    height: 10vh;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border: 2px dotted black;
+    display: flex;
+}
+
+.container-left-image{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2d2d2;
+}
+
+.container-right-input{
+    width: 75%;
+    height: 100%;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.usuario{
+    width: 60%;
+}

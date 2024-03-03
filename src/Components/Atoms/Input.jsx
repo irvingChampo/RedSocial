@@ -9,6 +9,7 @@ const Input = ({ tipo, placeholder, altura, ancho }) => (
                 height: `${altura}%`,
                 width: `${ancho}%`
             }}
+            required
         />
 );
 

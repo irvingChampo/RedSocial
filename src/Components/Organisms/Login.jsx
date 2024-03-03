@@ -1,4 +1,4 @@
-import InicioSesion from '../Molecules/InicioSesion'
+import InicioSesion from '../Molecules/InicioSesion';
 import './RegistroGoogle.css';
 
 function Login() {

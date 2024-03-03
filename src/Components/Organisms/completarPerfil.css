@@ -1,0 +1,14 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-perfil{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('../../../public/img/fondoUP2.jpg');
+    background-repeat: repeat;
+}

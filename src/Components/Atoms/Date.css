@@ -1,0 +1,39 @@
+.container-Date{
+    width: 65%;
+    height: 20%;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    margin-bottom: 3%;
+}
+.etiqueta-p{
+    width: 100%;
+}
+.container-input-date{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-date1{
+    width: 70%;
+    height: 60%;
+}
+
+.section-date2{
+    width: 30%;
+    height: 60%;
+}
+
+.section-date1-1{
+    width: 60%;
+    height: 60%;
+}
+
+.section-date2-2{
+    width: 40%;
+    height: 60%;
+}

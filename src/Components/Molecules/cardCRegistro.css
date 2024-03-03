@@ -1,0 +1,88 @@
+.container-card{
+    width: 40%;
+    height: 90%;
+    background-color: #AC78D1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-text{
+    width: 70%;
+    text-align: center;
+}
+.link-button{
+    width: 100%;
+    height: 100%;
+}
+
+.container-section-1{
+    width: 70%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.containerButton{
+    width: 65%;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.container-Input{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.intereces{
+    width: 70%;
+    height: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.interec-info{
+    width: 30%;
+    height: 35%;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.interec-info2{
+    width: 35%;
+    height: 35%;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.h6{
+    margin: 0;
+}
+
+.container-redes{
+    width: 70%;
+    height: 30vh;
+}
+.img-icons{
+    width: 9%;
+    margin-right: 2%;
+}
+.container-input-icon{
+    width: 95%;
+    margin: 2%;
+    height: 15%;
+    display: flex;
+}
