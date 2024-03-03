@@ -23,7 +23,9 @@ function InicioSesion() {
                         <Input tipo="password" placeholder="Contraseña" altura={60} ancho={100} />
                     </div>
                     <div className="containerInput">
-                        <Button size="100" size2="70" borderRadius="5px" color="#442495" colorText="#FFFFFF">Registrarme</Button>
+                    <Link className='Link-button' to="/Home">
+                        <Button size="100" size2="70" borderRadius="5px" color="#442495" colorText="#FFFFFF">Login</Button>
+                    </Link>
                     </div>
                 </div>
                 <div className="ButtonGoogleLogin">
@@ -34,5 +36,4 @@ function InicioSesion() {
         </>
     );
 }
-
 export default InicioSesion;

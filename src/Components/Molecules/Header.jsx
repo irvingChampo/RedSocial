@@ -1,7 +1,8 @@
-import Input from '../Atoms/Input'
-import Button from '../Atoms/Button'
-import Engranaje from '../../../public/img/engranaje.png'
-import './header.css'
+import { Link } from 'react-router-dom';
+import Engranaje from '../../../public/img/engranaje.png';
+import Button from '../Atoms/Button';
+import Input from '../Atoms/Input';
+import './header.css';
 
 function Header() {
     return ( 
@@ -17,7 +18,7 @@ function Header() {
                 </div>
                 <div className='container-right'>
                     <Button size="70" size2="38" borderRadius="3px" color="#442495" colorText="#FFFFFF">Mi Perfil</Button>
-                    <Button size="20" size2="38" borderRadius="3px" color="#FFFFFF" colorText="#000000"><img className='engranaje' src={Engranaje} alt="Imagen de la tarjeta" /></Button>
+                    <Button size="20" size2="38" borderRadius="3px" color="#FFFFFF" colorText="#000000"><Link to="/Configuracion"><img className='engranaje' src={Engranaje} alt="Imagen de la tarjeta" /></Link></Button>
                 </div>
             </nav>
         </>
