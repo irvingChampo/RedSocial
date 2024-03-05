@@ -36,8 +36,5 @@ function CompletarRegistro() {
                 <Link className='Link-button' to="/Home"><Button size="100" size2="70" borderRadius="10px" color="#5935A1" colorText="#000000">Guardar Cambios</Button></Link>
                 </div>
             </section>
-        </>
-     );
-}
-
+        </>);}
 export default CompletarRegistro;

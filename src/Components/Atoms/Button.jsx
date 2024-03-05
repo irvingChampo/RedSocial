@@ -1,4 +1,4 @@
-import './button.css'
+import './Button.css'
 
 // eslint-disable-next-line react/prop-types
 const Button = ({ children, size = "25",size2 = "25", borderRadius = "0px", color = "black", colorText = "black" }) => (

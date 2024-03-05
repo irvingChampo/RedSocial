@@ -1,4 +1,4 @@
-import './cardArticulo.css';
+import './CardArticulo.css';
 
 // eslint-disable-next-line react/prop-types
 function CardArticulo({ title1, text }) {

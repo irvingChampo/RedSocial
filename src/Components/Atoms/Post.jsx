@@ -30,5 +30,4 @@ function Post({ text, text2, image1, image2,number, number2, number3 }) {
         </section>
     );
 }
-
 export default Post;

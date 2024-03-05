@@ -27,5 +27,4 @@ function CrearPublicacion() {
         </>
      );
 }
-
 export default CrearPublicacion;
